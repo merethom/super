@@ -1,0 +1,117 @@
+
+b {
+  font-weight: 600;
+}
+
+h1.notion-heading {
+  padding: var( --tarrasque) 0 var( --normie);
+  font-size: var(--large);
+  font-weight: 400;
+}
+
+h2.notion-heading {
+  font-size: var(--medium);
+  font-family: var(--secondary-font);
+  font-weight: 500;
+  margin: 0;
+  padding: 0 0 var(--normie);
+}
+
+h3.notion-heading {
+  font-size: var(--normie);
+  font-weight: 500;
+}
+
+.notion-quote {
+  margin: var(--large) 0 0;
+  color: #9B9B9B;
+  font-family: var(--secondary-font);
+  padding: 0 0 0 var(--tiny);
+  font-size: var(--tiny);
+}
+
+.notion-quote span.notion-semantic-string {
+  line-height: var(--line-height);
+}
+
+
+p.notion-text {
+  font-size: var(--normie);
+  line-height: var(--line-height);
+  font-weight: 400;
+  padding: 0 0 var(--tiny);
+  margin: 0;
+}
+
+
+p.notion-text a.notion-link {
+  display: inline-block;
+  text-decoration: none;
+  opacity: 1;
+  font-family: var(--primary-font);
+  border: solid 2px var(--pop);
+  border-radius: var(--large);
+  padding: 21px 35px 22px 35px;
+  margin: var(--large) 0 var(--gargantuan);
+  color: #fff;
+  transition: all 300ms;
+}
+
+p.notion-text a.notion-link:after {
+  content: '\0020\0020\2192';
+  font-family: var(--secondary-font);
+  color: var(--pop);
+}
+
+
+p.notion-text a.notion-link:hover {
+  opacity: 0.7;
+}
+
+
+.notion-column {
+  padding-bottom: var(--normie);
+}
+
+.notion-callout__icon {
+  display: none;
+}
+
+.notion-callout {
+  padding: 16px 20px;
+  margin: 0;
+}
+
+.notion-callout__content {
+  margin-inline-start: 0;
+}
+
+.notion-callout__content ol {
+  font-family: var(--secondary-font);
+}
+.notion-callout span {
+  font-size: var(--small)
+  line-height: var(--line-height);
+}
+
+.bg-yellow-light {
+  background: var(--pop);
+  color: var(--color-bg-default);
+  text-align: center;
+  margin: calc(var( --tarrasque) - 10px) 0 0;
+}
+
+.notion-table {
+  width: 100%;
+  margin: 0 0 var(--normie);
+  font-family: var(--secondary-font);
+  font-size: var(--halfling);
+}
+
+.notion-table td {
+  vertical-align: top;
+}
+
+footer.super-footer {
+  margin-top:var(--tarrasque);
+}
