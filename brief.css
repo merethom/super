@@ -90,7 +90,7 @@ p.notion-text a.notion-link:hover {
   font-family: var(--secondary-font);
 }
 .notion-callout span {
-  font-size: var(--small)
+  font-size: var(--small);
   line-height: var(--line-height);
 }
 
